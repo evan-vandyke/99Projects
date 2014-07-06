@@ -7,7 +7,7 @@
 puts "Enter word to git Pig Latin version"
 word = gets.strip
 
-vowels = "a e i o u y".split(" ")
+vowels = "a e i o u".split(" ")
 
 if vowels.include? word[0].downcase
 	word << "-way"
