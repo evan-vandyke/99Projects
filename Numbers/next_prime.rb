@@ -13,18 +13,18 @@ def is_prime?(number)
 end
 
 i = 2
-puts i
 question = "Continue? (y/n) "
-answer = gets.chomp()
-if answer == 'y'
-	cont = true
-	i += 1
-else
-	cont = false
-end
+answer = 'y'
 
-until(cont == false)
-	puts "hello"
+while answer == 'y'
+	if i == 2 || is_prime?(i)
+		puts i
+		puts question
+		answer = gets.strip
+		i += 1
+	else
+		i += 1
+	end
 end
 
 
