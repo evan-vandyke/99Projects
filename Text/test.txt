@@ -1,0 +1,5 @@
+A palindrome is a word or sentence that reads the same forward as 
+it does backward. An
+ example would 
+be the also famous palindrome "Able was I ere I saw Elba," 
+purportedly spoken by Napoleon, referring to his first sighting of Elba, 
